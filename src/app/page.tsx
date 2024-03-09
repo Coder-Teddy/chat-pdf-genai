@@ -20,7 +20,7 @@ export default async function Home() {
             {isAuth && <Button>Go to Chats</Button>}
           </div>
           <p className="max-w-xl mt-2 text-lg text-slate-600">
-            join millinpn bye lorem bishnoi
+            Get your PDF to chat with you
           </p>
 
           <div className="w-full mt-4">
