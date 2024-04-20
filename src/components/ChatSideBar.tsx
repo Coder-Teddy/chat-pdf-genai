@@ -24,7 +24,7 @@ const ChatSideBar = ({ chats, chatId }: Props) => {
         </Button>
       </Link>
 
-      <div className="flex flex-col gap-2 mt-4">
+      <div className="flex flex-col overflow-scroll gap-2 mt-4">
         {chats.map((chat) => (
           <Link key={chat.id} href={`/chat/${chat.id}`}>
             <div
